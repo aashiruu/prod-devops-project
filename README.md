@@ -1,5 +1,5 @@
 
-# ☸️ Production-Grade Kubernetes Platform
+# Production-Grade Kubernetes Platform
 
 
 
@@ -13,7 +13,7 @@
 
 
 
-## 📖 Overview
+## Overview
 
 This project demonstrates a complete **Platform Engineering** lifecycle, shifting from manual deployments to a self-healing, observable, and automated Kubernetes platform. 
 
@@ -23,7 +23,7 @@ Unlike a standard "Hello World" container, this platform implements **Infrastruc
 
 
 
-## 🏗 Architecture
+## Architecture
 
 The system simulates a real-world enterprise environment running locally on **Kind (Kubernetes in Docker)**.
 
@@ -43,7 +43,7 @@ The system simulates a real-world enterprise environment running locally on **Ki
 
 
 
-## 🔧 Technical Highlights
+## Technical Highlights
 
 
 
@@ -77,7 +77,7 @@ Instead of sidecars, I implemented the **Prometheus Operator** pattern.
 
 
 
-## 🚀 Quick Start
+## Quick Start
 
 
 
@@ -131,11 +131,16 @@ kubectl port-forward svc/kube-prometheus-stack-grafana -n monitoring 3000:80
 
 
 
-## 📈 Visuals
+## Screenshots
+**Real-time HTTP request throughput visualized in Grafana**
+<img width="606" height="247" alt="image" src="https://github.com/user-attachments/assets/e4d085c3-2918-45fb-81ab-7e012978fe44" />
+
+**Prometheus Service Discovery automatically detecting application pods**
+<img width="937" height="569" alt="image" src="https://github.com/user-attachments/assets/1ceed966-1629-4f8a-b431-c94282d461cc" />
+
 
 
 
 ---
 
-*Built by [Okikiola Ashiru]*
 
